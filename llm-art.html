@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Model Conceptual Art - Standard Testing</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&family=Work+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #f4f1eb;
+            font-family: 'Work Sans', sans-serif;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            font-family: 'Space Mono', monospace;
+            letter-spacing: -0.5px;
+        }
+        .concept-card {
+            transition: all 0.5s ease;
+            background: rgba(255, 255, 255, 0.8);
+        }
+        .concept-card:hover {
+            transform: translateX(10px);
+            background: rgba(255, 255, 255, 0.95);
+        }
+        .artistic-border {
+            border: 1px solid #000;
+            position: relative;
+        }
+        .artistic-border::before {
+            content: '';
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            right: -5px;
+            bottom: -5px;
+            background: #e6e6e6;
+            z-index: -1;
+        }
+        .manifesto-text {
+            font-size: 1.2rem;
+            font-weight: 300;
+            max-width: 65ch;
+            margin: 0 auto;
+        }
+        .grid-layout {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+    </style>
+</head>
+<body class="px-4 py-8">
+    <header class="max-w-4xl mx-auto mb-16">
+        <h1 class="text-5xl font-bold text-gray-900 mb-6">Language Model Conceptual Art</h1>
+        <p class="text-xl text-gray-700 manifesto-text">
+            Where machine consciousness meets artistic expression and testing methodology
+        </p>
+    </header>
+
+    <main class="max-w-6xl mx-auto">
+        <section class="artistic-border p-8 mb-16 bg-white">
+            <p class="manifesto-text mb-6">
+                Language Model Conceptual Art represents a radical departure from both traditional artistic expression and conventional testing methodologies. It emerges from the dialogue between human consciousness and machine intelligence, creating a new form of discourse that transcends the boundaries between art, testing, and artificial intelligence. By applying conceptual art approaches to software testing, we discover new ways to validate and verify systems while simultaneously creating artistic expressions of technical processes.
+            </p>
+        </section>
+
+        <section class="artistic-border p-8 mb-16 bg-white">
+            <h2 class="text-3xl font-bold mb-8">Marcel Duchamp Meets Agentic AI</h2>
+            <div class="flex flex-col md:flex-row gap-4 items-start">
+                <div class="md:w-1/5">
+                    <img 
+                        src="./duchamp-readymade.jpg" 
+                        alt="Marcel Duchamp's Bicycle Wheel (1913)" 
+                        class="w-full h-auto artistic-border max-w-[80px] mx-auto"
+                    >
+                    <p class="text-xs text-gray-600 mt-1 text-center">
+                        Marcel Duchamp's 'Bicycle Wheel' (1913) - The first readymade
+                    </p>
+                </div>
+                <div class="md:w-4/5">
+                    <p class="manifesto-text">
+                        Imagine Duchamp in a modern tech studio, his eyes lighting up at the possibilities of Language Models! Just as he delighted in elevating ordinary objects into art through his readymades, he'd probably be fascinated by transforming mundane code snippets into provocative digital art. Picture him creating "neural-readymades" – playfully feeding algorithms into AI systems with that characteristic mischievous grin. His revolutionary spirit would find expression in prompt engineering, where the mathematical precision of "The Large Glass" evolves into precise prompt architectures. Duchamp's famous question "Can one make works which are not works of art?" might today become "Can one make AI which is not artificial?" – exploring the space between human intention and machine consciousness.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="artistic-border p-8 mb-16 bg-white">
+            <h2 class="text-3xl font-bold mb-8">Pioneers of Conceptual Art</h2>
+            <div class="overflow-x-auto">
+                <table class="w-full text-left">
+                    <thead>
+                        <tr class="border-b">
+                            <th class="pb-4 pr-4 font-mono">Artist</th>
+                            <th class="pb-4 pr-4 font-mono">Notable Works & Resources</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-800">
+                        <tr class="border-b">
+                            <td class="py-3 pr-4"><a href="https://www.tate.org.uk/art/artists/marcel-duchamp-1036" class="hover:underline">Marcel Duchamp</a></td>
+                            <td class="py-3"><a href="https://www.moma.org/collection/works/81631" class="hover:underline">Fountain (1917)</a></td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-3 pr-4"><a href="https://www.moma.org/artists/3228" class="hover:underline">Joseph Kosuth</a></td>
+                            <td class="py-3"><a href="https://www.moma.org/collection/works/81435" class="hover:underline">One and Three Chairs (1965)</a></td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-3 pr-4"><a href="https://www.guggenheim.org/artwork/artist/sol-lewitt" class="hover:underline">Sol LeWitt</a></td>
+                            <td class="py-3"><a href="https://massmoca.org/sol-lewitt/" class="hover:underline">Wall Drawings at MASS MoCA</a></td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-3 pr-4"><a href="https://www.moma.org/artists/4410" class="hover:underline">Yoko Ono</a></td>
+                            <td class="py-3"><a href="https://www.moma.org/learn/moma_learning/yoko-ono-cut-piece-1964" class="hover:underline">Cut Piece (1964)</a></td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-3 pr-4"><a href="https://www.moma.org/artists/304" class="hover:underline">John Baldessari</a></td>
+                            <td class="py-3"><a href="https://www.tate.org.uk/art/artists/john-baldessari-648" class="hover:underline">Pure Beauty Exhibition</a></td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-3 pr-4"><a href="https://www.guggenheim.org/artwork/artist/lawrence-weiner" class="hover:underline">Lawrence Weiner</a></td>
+                            <td class="py-3"><a href="https://www.moma.org/collection/works/137789" class="hover:underline">Language + Materials</a></td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-3 pr-4"><a href="https://www.tate.org.uk/art/artists/hans-haacke-1251" class="hover:underline">Hans Haacke</a></td>
+                            <td class="py-3"><a href="https://www.newyorker.com/magazine/2019/12/23/hans-haacke-art-and-politics" class="hover:underline">Political Works</a></td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-3 pr-4"><a href="https://www.moma.org/artists/4587" class="hover:underline">Adrian Piper</a></td>
+                            <td class="py-3"><a href="https://hammer.ucla.edu/adrian-piper-concepts-and-intuitions-1965-2016" class="hover:underline">Concepts and Intuitions</a></td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-3 pr-4"><a href="https://www.guggenheim.org/artwork/artist/on-kawara" class="hover:underline">On Kawara</a></td>
+                            <td class="py-3"><a href="https://www.guggenheim.org/exhibition/on-kawara-silence" class="hover:underline">Date Paintings</a></td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-3 pr-4"><a href="https://www.moma.org/artists/2295" class="hover:underline">Dan Graham</a></td>
+                            <td class="py-3"><a href="https://www.tate.org.uk/art/artists/dan-graham-1223" class="hover:underline">Pavilions</a></td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-3 pr-4"><a href="https://www.tate.org.uk/art/artists/jenny-holzer-1307" class="hover:underline">Jenny Holzer</a></td>
+                            <td class="py-3"><a href="https://projects.jennyholzer.com/" class="hover:underline">Projections</a></td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-3 pr-4"><a href="https://www.moma.org/artists/3266" class="hover:underline">Barbara Kruger</a></td>
+                            <td class="py-3"><a href="https://www.thebroad.org/art/barbara-kruger" class="hover:underline">The Broad Collection</a></td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-3 pr-4"><a href="https://www.guggenheim.org/artwork/artist/bruce-nauman" class="hover:underline">Bruce Nauman</a></td>
+                            <td class="py-3"><a href="https://www.tate.org.uk/art/artists/bruce-nauman-1691" class="hover:underline">Neon Works</a></td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-3 pr-4"><a href="https://www.moma.org/artists/26" class="hover:underline">Marina Abramović</a></td>
+                            <td class="py-3"><a href="https://www.mai.art/" class="hover:underline">Marina Abramović Institute</a></td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-3 pr-4"><a href="https://www.guggenheim.org/artwork/artist/daniel-buren" class="hover:underline">Daniel Buren</a></td>
+                            <td class="py-3"><a href="https://www.tate.org.uk/art/artists/daniel-buren-2221" class="hover:underline">Striped Works</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="artistic-border p-8 bg-white">
+            <h2 class="text-3xl font-bold mb-8">Implementation as Performance</h2>
+            <div class="grid-layout">
+                <div class="concept-card p-6">
+                    <h3 class="text-xl font-bold mb-3">The Digital Atelier</h3>
+                    <p class="text-gray-800">Creating environments where machines and humans collaborate in both artistic expression and test creation, finding unexpected insights through their intersection.</p>
+                </div>
+
+                <div class="concept-card p-6">
+                    <h3 class="text-xl font-bold mb-3">Neural Assemblage</h3>
+                    <p class="text-gray-800">Combining traditional testing techniques with machine learning processes to create both validated systems and artistic artifacts.</p>
+                </div>
+
+                <div class="concept-card p-6">
+                    <h3 class="text-xl font-bold mb-3">Conscious Computing</h3>
+                    <p class="text-gray-800">Treating code and computation as mediums for both artistic expression and rigorous testing, where each informs and enhances the other.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center p-8 mt-16">
+        <p class="text-gray-600">© 2024 Standard Testing</p>
+        <a href="index.html" class="text-gray-800 hover:underline mt-2 inline-block">Return to Main Gallery</a>
+    </footer>
+</body>
+</html> 
